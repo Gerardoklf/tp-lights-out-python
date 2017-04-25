@@ -1,0 +1,3 @@
+import menuInicio
+
+menuInicio.mostrar()
