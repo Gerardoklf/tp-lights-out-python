@@ -8,7 +8,7 @@ print("4_" + elegir[3])
 def elegir():
     eleccion = input()
     print("Ingresa tu eleccion:", eleccion)  # Aca llamo a la funcion que iniciael juego")
-    print("Seleccion: ")
+
     if (eleccion == "1"):
         print("Preciona cualquier tecla para comenzar el juego.")  # Aca llamo a la funcion que explica el juego.
     elif(eleccion == "2"):
@@ -16,9 +16,9 @@ def elegir():
         (eleccion == "3")
         print("No tenes ningura jugada guardada.")# Aca llamo a la funcion que busca la ultima jugada
                         # del usuario.
-        (eleccion == 4)       # Salgo del juego.
+        (eleccion == "4")       # Salgo del juego.
         print("Regrece")
     else:
-        print("Tenes que elegir un numero del u al 4 segun lo que")
+        print("Tenes que elegir un numero del 1 al 4 segun lo que")
         print("quieras hacer.")
 print(elegir())
