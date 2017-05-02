@@ -1,6 +1,5 @@
 def mostrar():
-    print("Bienvenido a higth ligth ingresa tu nombre: ")
-    nombre = input()
+    nombre = input("Bienvenido a higth ligth ingresa tu nombre: ")
     jugar = "Inicia el juego"
     nivel = "Selecciona tu nivel de dificultad"
     salir = "Estas saliendo del juego"
