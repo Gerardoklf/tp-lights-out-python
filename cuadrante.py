@@ -6,7 +6,12 @@ def juego(apagando, prendiendo):
         print = (apagar)
     elif prendo:
         print(prender)
-lista = ("#""#""#""#""#")
+
+luz = "O"
+apagado = "."
+
+print(luz, apagado)
+lista = ["#""#""#""#""#"]
 print(lista)
 print(lista)
 print(lista)
