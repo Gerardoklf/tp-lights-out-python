@@ -11,13 +11,14 @@ def elegir():
 
     if (eleccion == "1"):
         print("Preciona cualquier tecla para comenzar el juego.")  # Aca llamo a la funcion que explica el juego.
-    elif(eleccion == "2"):
+    if(eleccion == "2"):
         print("Aca tendria que estar las instrucciones que todabia no hice.")
-        (eleccion == "3")
+    if(eleccion == "3"):
         print("No tenes ningura jugada guardada.")# Aca llamo a la funcion que busca la ultima jugada
                         # del usuario.
-        (eleccion == "4")       # Salgo del juego.
+    elif(eleccion == "4"):
         print("Regrece")
+        print("Gracias por jugar")
     else:
         print("Tenes que elegir un numero del 1 al 4 segun lo que")
         print("quieras hacer.")
