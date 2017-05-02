@@ -1,17 +1,17 @@
-
+apagar = "_"
+prender = "O"
 def juego(apagando, prendiendo):
-    apagar = "#"
-    prender = "*"
+
     if apago:
         print = (apagar)
     elif prendo:
         print(prender)
 
-luz = "O"
-apagado = "."
+#luz = O
+#apagado = x
 
-print(luz, apagado)
-lista = ["#""#""#""#""#"]
+print(apagar, prender)
+lista = [prender, apagar, apagar, prender, apagar]
 print(lista)
 print(lista)
 print(lista)
