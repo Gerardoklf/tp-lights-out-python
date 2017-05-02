@@ -1,5 +1,5 @@
-apagar = "_"
-prender = "O"
+apagar = '-'
+prender = 'O'
 print(apagar, prender)
 lista = [prender, apagar, apagar, prender, apagar]
 print(lista)
